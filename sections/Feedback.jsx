@@ -1,9 +1,7 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
-
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
@@ -19,11 +17,11 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Vignesh</h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Founder of MetaDroid</p>
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Nabeel</h4>
+          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">A fair point of view</p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          “With the development of today's technology, metaverse is very useful for today's work, or can be called web 3.0. by using metaverse you can use it as anything”
+          “At a point of time, you will realize that college wasted your time & efforts. Real world skills are gained through self-learning.”
         </p>
       </motion.div>
 

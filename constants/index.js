@@ -2,82 +2,80 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Excel & VBA',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Financial Modeling',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Hueco Mundo',
+    title: 'Web Development & Design',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'Data Analysis & Visualization',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Business Automation',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading precaution to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'SMOOD Checklist | Progressive Web App',
+  'Audit Tools | Excel VBA',
+  'Sharing Knowledge | Blog Posts, Mind-maps, Resources',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Templates',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'A collection of different templates related to finance, Excel, CV, webpages, and more',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Full blog posts',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Topics chosen were carefully picked, all of which i benefited from',
   },
 ];
-
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse and be happy :)',
+    title: 'Post 1 Title',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Some text here.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Post 2 Title',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Some text here.',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Post 3 Title',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Some text here.',
   },
 ];
-
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
-  },
+  //{
+  //name: 'twitter',
+  //url: '/twitter.svg',
+  //link: 'https://twitter.com/VigneshGupta9',
+  //},
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    link: 'https://www.linkedin.com/in/nabeel-s/',
   },
   {
     name: 'instagram',

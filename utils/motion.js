@@ -1,11 +1,11 @@
 export const navVariants = {
   hidden: {
     opacity: 0,
-    y: -50,
+    y: -40,
     transition: {
       type: 'spring',
-      stiffness: 300,
-      damping: 140,
+      stiffness: 200,
+      damping: 100,
     },
   },
   show: {
@@ -13,7 +13,7 @@ export const navVariants = {
     y: 0,
     transition: {
       type: 'spring',
-      stiffness: 80,
+      stiffness: 100,
       delay: 0.2,
     },
   },
@@ -48,7 +48,7 @@ export const staggerContainer = (staggerChildren, delayChildren) => ({
 
 export const textVariant = (delay) => ({
   hidden: {
-    y: 50,
+    y: 40,
     opacity: 0,
   },
   show: {
@@ -56,7 +56,7 @@ export const textVariant = (delay) => ({
     opacity: 1,
     transition: {
       type: 'spring',
-      duration: 1.25,
+      duration: 1.20,
       delay,
     },
   },
@@ -68,7 +68,7 @@ export const textContainer = {
   },
   show: (i = 1) => ({
     opacity: 1,
-    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
+    transition: { staggerChildren: 0.2, delayChildren: i * 0.2 },
   }),
 };
 
@@ -116,8 +116,8 @@ export const planetVariants = (direction) => ({
     rotate: 0,
     transition: {
       type: 'spring',
-      duration: 1.8,
-      delay: 0.5,
+      duration: 2,
+      delay: 0.4,
     },
   },
 });
@@ -142,11 +142,11 @@ export const zoomIn = (delay, duration) => ({
 export const footerVariants = {
   hidden: {
     opacity: 0,
-    y: 50,
+    y: 40,
     transition: {
       type: 'spring',
-      stiffness: 300,
-      damping: 140,
+      stiffness: 200,
+      damping: 100,
     },
   },
   show: {
@@ -154,8 +154,8 @@ export const footerVariants = {
     y: 0,
     transition: {
       type: 'spring',
-      stiffness: 80,
-      delay: 0.5,
+      stiffness: 100,
+      delay: 0.4,
     },
   },
 };
