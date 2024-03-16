@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "appdir": "^1.0.1",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^11.0.13",
-    "next": "14.1.3",
+    "next": "^14.1.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -21,6 +22,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-next": "^0.0.0",
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.35",
