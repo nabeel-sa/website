@@ -1,13 +1,12 @@
 module.exports = {
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:next/recommended",
     "airbnb",
   ],
-  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'next', 'import', 'jsx-a11y'],
+  plugins: ['react', 'react-hooks', 'next', 'import', 'jsx-a11y'],
   env: {
     browser: true,
     es2021: true,
