@@ -3,6 +3,7 @@
   "author": "Nabeel Sarhan",
   "description": "A personal website and web development blog to share knowledge. Built with Next.js and Tailwind CSS.",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,8 +13,7 @@
     "framer-motion": "^11.0.14",
     "next": "^14.1.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "5.0.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
