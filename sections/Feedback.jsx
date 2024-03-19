@@ -19,12 +19,10 @@ const Feedback = () => (
                 <div className="feedback-gradient"/>
                 <div>
                     <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Nabeel</h4>
-                    <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">A
-                        fair point of view</p>
+                    <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Fair opinion</p>
                 </div>
                 <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-                    “At a point of time, you will realize that college wasted your time & efforts. Real world skills are
-                    gained through self-learning.”
+                    “There's a point of time, when you realize that college have wasted your time. As none of <strong>real-world</strong> skills' were taught, but self-learning and development did!”
                 </p>
             </motion.div>
 

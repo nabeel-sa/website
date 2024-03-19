@@ -10,11 +10,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-black': '#1A1B1C',
-        'secondary-white': '#EAEAEA',
+        'primary-black': '#000000',
+        'secondary-white': '#F1F5F8',
       },
       transitionTimingFunction: {
-        'out-flex': 'cubic-bezier(0.05, 0.5, 0.5, 1)',
+        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
       },
     },
   },

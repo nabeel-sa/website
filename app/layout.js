@@ -9,9 +9,9 @@ const RootLayout = ({children}) => (
         <meta name="description" content="Nabeel's website and blog for web development and sharing knowledge"/>
         <meta name="keywords"
               content="personal website, Nabeel, Nabeel Sarhan, web development, sharing knowledge, excel, templates, free templates"/>
-        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta httpEquiv="X-UA-Compatible" content="IE-edge"/>
         <meta name="robots" content="index, follow"/>
-        <meta charSet="UTF-8"/>
+        <meta charset="UTF-8"/>
     </head>
     <body>{children}</body>
     </html>

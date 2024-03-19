@@ -12,7 +12,7 @@ export const exploreWorlds = [
     {
         id: 'world-3',
         imgUrl: '/planet-03.png',
-        title: 'Web Development & Design',
+        title: 'Web Design & Development',
     },
     {
         id: 'world-4',
@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-    'SMOOD Checklist | Progressive Web App',
-    'Audit Tools | Excel VBA',
-    'Sharing Knowledge | Blog Posts, Mind-maps, Resources',
+    'SMOOD Checklist | Progressive Web App (PWA) with Notion & Slack Integration',
+    'Audit Tools | Excel VBA Modules to Facilitate Audit Procedures',
+    'Accounting & Finance Drive | Collection of Summaries, Mind-maps, and Other Resources',
 ];
 
 export const newFeatures = [
@@ -37,49 +37,54 @@ export const newFeatures = [
         imgUrl: '/vrpano.svg',
         title: 'Templates',
         subtitle:
-            'A collection of different templates related to finance, Excel, CV, webpages, and more',
+            'Collection of various uses templates for finance, Excel, and Resumes/ CVs',
     },
     {
         imgUrl: '/headset.svg',
-        title: 'Full blog posts',
+        title: 'Blog Posts',
         subtitle:
-            'Topics chosen were carefully picked, all of which i benefited from',
+            'Miscellaneous topics, including Excel, Web Development, and more',
     },
 ];
 export const insights = [
     {
         imgUrl: '/planet-06.png',
-        title: 'Post 1 Title',
+        title: 'Post-1 Title',
         subtitle:
-            'Some text here.',
+            'Text here.',
     },
     {
         imgUrl: '/planet-07.png',
-        title: 'Post 2 Title',
+        title: 'Post-2 Title',
         subtitle:
-            'Some text here.',
+            'Text here.',
     },
     {
         imgUrl: '/planet-08.png',
-        title: 'Post 3 Title',
+        title: 'Post-3 Title',
         subtitle:
-            'Some text here.',
+            'Text here.',
     },
 ];
 export const socials = [
-    //{
-    //name: 'twitter',
-    //url: '/twitter.svg',
-    //link: 'https://twitter.com/VigneshGupta9',
-    //},
     {
-        name: 'linkedin',
-        url: '/linkedin.svg',
-        link: 'https://www.linkedin.com/in/nabeel-s/',
+        name: 'Email',
+        url: '/email.svg',
+        link: 'mailto:sarhan.na@outlook.com',
     },
     {
-        name: 'instagram',
-        url: '/instagram.svg',
-        link: 'https://www.instagram.com/_viggi.g_/',
+        name: 'Medium',
+        url: '/medium.svg',
+        link: 'https://nabeel-sa.medium.com',
+    },
+    {
+        name: 'Linkedin',
+        url: '/linkedin.svg',
+        link: 'https://www.linkedin.com/in/nabeel-s',
+    },
+    {
+        name: 'Github',
+        url: '/github.svg',
+        link: 'https://www.github.com/nabeel-sa',
     },
 ];
