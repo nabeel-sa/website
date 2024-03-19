@@ -11,7 +11,7 @@ const RootLayout = ({children}) => (
               content="personal website, Nabeel, Nabeel Sarhan, web development, sharing knowledge, excel, templates, free templates"/>
         <meta httpEquiv="X-UA-Compatible" content="IE-edge"/>
         <meta name="robots" content="index, follow"/>
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
     </head>
     <body>{children}</body>
     </html>
