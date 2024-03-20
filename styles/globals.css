@@ -3,13 +3,13 @@
 @tailwind utilities;
 * {margin: 0;padding: 0;box-sizing: border-box;font-family: "Inter", serif;scroll-behavior: smooth;}
 .gradient-01 {background-image: linear-gradient(270deg,
-            #d123e1 0%,
-            #d18aea 26%,
-            #d0c2f4 39%,
-            #ceecfd 50%,
-            #a9c8f4 61%,
-            #7b9eea 74%,
-            #2362e1 100% );filter: blur(125px);}
+#d123e1 0%,
+#d18aea 26%,
+#d0c2f4 39%,
+#ceecfd 50%,
+#a9c8f4 61%,
+#7b9eea 74%,
+#2362e1 100% );filter: blur(125px);}
 .hero-gradient { background: linear-gradient(97.86deg, #a509ff 0%, #34acc7 53.65%, #a134c7 100%);}
 .gradient-02 {position: absolute;width: 200px;height: 438px;top: 0px;right: 0px;background: #7aebfb;filter: blur(190px);}
 .glassmorphism {background:rgba(255, 255, 255, 0.25);box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);backdrop-filter: blur(4px);-webkit-backdrop-filter: blur(4px);border: 1px solid rgba(255, 255, 255, 0.18);}
