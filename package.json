@@ -1,7 +1,7 @@
 {
   "name": "nabeel-website",
   "author": "Nabeel Sarhan",
-  "description": "A personal website and web development blog to share knowledge. Built with Next.js and Tailwind CSS.",
+  "description": "A personal website and a web development blog. Built with Next.js, React and Tailwind CSS.",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "framer-motion": "^11.0.14",
-    "next": "^14.1.3",
+    "framer-motion": "^11.0.15",
+    "next": "^14.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.36",
+    "postcss": "^8.4.37",
     "tailwindcss": "^3.4.1"
   }
 }
